@@ -23,6 +23,7 @@ public class Player {
     private String phone;
 
     public Player(PlayerRequestDTO data) {
+        this.player_id= data.player_id();
         this.first_name = data.first_name();
         this.last_name = data.last_name();
         this.email = data.email();
