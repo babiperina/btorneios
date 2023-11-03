@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/_metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/chunk-UZX524IT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/chunk-UZX524IT.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/react-dom_client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/react-dom_client.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/react.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/react.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/react_jsx-dev-runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/react_jsx-dev-runtime.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/react_jsx-runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/score4you/node_modules/.vite/deps/react_jsx-runtime.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/Score4youApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/controller/matchController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/controller/playerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/match/Match.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/match/MatchRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/match/MatchRequestDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/match/MatchResponseDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/player/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/player/PlayerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/player/PlayerRequestDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/score4you/player/PlayerResponseDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/score4you/Score4youApplicationTests.class" beforeDir="false" />
-    </list>
+    <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +50,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -86,12 +59,11 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_directory_selection": "E:/Repositórios/score4you/trabalhoFinalPOOeBD/src/main/java/com/example/score4you",
-    "last_opened_file_path": "E:/Repositórios/score4you/trabalhoFinalPOOeBD",
+    "last_opened_file_path": "E:/Repositórios/score4you/trabalhoFinalPOOeBD/src/main/java/com/example/score4you",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -127,8 +99,6 @@
       </method>
     </configuration>
     <configuration name="Score4youApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="score4you" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.score4you.Score4youApplication" />
@@ -148,8 +118,7 @@
       <workItem from="1698720507411" duration="15093000" />
       <workItem from="1698867036559" duration="6355000" />
       <workItem from="1698892235216" duration="2306000" />
-      <workItem from="1698962484498" duration="2886000" />
-      <workItem from="1698979492315" duration="756000" />
+      <workItem from="1698962484498" duration="2206000" />
     </task>
     <servers />
   </component>
