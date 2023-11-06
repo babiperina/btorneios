@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/PlayerRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/PlayerRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/PlayerResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/PlayerResponseDTO.java" afterDir="false" />
-    </list>
+    <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +60,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_directory_selection": "E:/Repositórios/score4you/trabalhoFinalPOOeBD/src/main/java/com/example/score4you",
-    "last_opened_file_path": "E:/Repositórios/score4you/trabalhoFinalPOOeBD/src/main/java/com/example/score4you",
+    "last_opened_file_path": "/Users/barbaraALB/Documents/GitHub - Personal/trabalhoFinalPOOeBD/src/main/java/com/example/score4you/sport",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +68,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,10 +78,12 @@
       <recent name="com.example.score4you.score" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/sport" />
       <recent name="E:\Repositórios\score4you\trabalhoFinalPOOeBD\src\main\java\com\example\score4you" />
       <recent name="E:\Repositórios\score4you\trabalhoFinalPOOeBD\src\main\java\com\example\score4you\player" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.score4you.controller" />
       <recent name="com.example.score4you" />
     </key>
   </component>
@@ -105,6 +102,8 @@
       </method>
     </configuration>
     <configuration name="Score4youApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="score4you" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.score4you.Score4youApplication" />
@@ -125,13 +124,32 @@
       <workItem from="1698867036559" duration="6355000" />
       <workItem from="1698892235216" duration="2306000" />
       <workItem from="1698962484498" duration="2206000" />
+      <workItem from="1699067580886" duration="1878000" />
+      <workItem from="1699073305521" duration="498000" />
+      <workItem from="1699073812787" duration="2142000" />
+      <workItem from="1699077772569" duration="3371000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -11,16 +11,19 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode(of = "match_id")
+@EqualsAndHashCode(of = "id")
 public class Match {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long match_id;
-    private Long winner_id;
-    private Long loser_id;
+    private Long id;
+    private String match_name;
+    private Long team_a;
+    private Long team_b;
+    private String winner;
+    private Long sport_id;
 
     public Match(MatchRequestDTO data) {
-        this.winner_id = data.winner_id();
-        this.loser_id = data.loser_id();
+//        this.winner_id = data.winner_id();
+//        this.loser_id = data.loser_id();
     }
 }
