@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="my version changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/DuplaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/DuplaTorneioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/dupla/Dupla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/dupla/DuplaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/dupla/DuplaRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/dupla/DuplaResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/duplaTorneio/DuplaTorneio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/duplaTorneio/DuplaTorneioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/duplaTorneio/DuplaTorneioRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/duplaTorneio/DuplaTorneioResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/CategoriaTorneioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/CategoriaTorneioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/dupla/Dupla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/dupla/Dupla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/duplaTorneio/DuplaTorneio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/duplaTorneio/DuplaTorneio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +157,7 @@
       <workItem from="1699309247569" duration="1808000" />
       <workItem from="1700190801263" duration="2000" />
       <workItem from="1700190967230" duration="51000" />
-      <workItem from="1700529177360" duration="16413000" />
+      <workItem from="1700529177360" duration="16589000" />
     </task>
     <task id="LOCAL-00001" summary="my version changes">
       <option name="closed" value="true" />
