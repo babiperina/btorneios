@@ -4,49 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoria/CategoriaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoria/CategoriaRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoria/CategoriaResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoriaTorneio/CategoriaTorneio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoriaTorneio/CategoriaTorneioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoriaTorneio/CategoriaTorneioRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoriaTorneio/CategoriaTorneioResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/CategoriaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/CategoriaTorneioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/GeneroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/NivelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/StatusController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/genero/Genero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/genero/GeneroRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/genero/GeneroRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/genero/GeneroResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/nivel/Nivel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/nivel/NivelRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/nivel/NivelRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/nivel/NivelResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/status/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/status/StatusRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/status/StatusRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/status/StatusResponseDTO.java" afterDir="false" />
+    <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="my version changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/matchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/TorneioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/playerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/sportController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/match/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/torneio/Torneio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/match/MatchRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/torneio/TorneioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/match/MatchRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/torneio/TorneioRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/match/MatchResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/torneio/TorneioResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/PlayerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/PlayerRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/PlayerResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/sport/Sport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoria/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/sport/SportRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/sport/SportRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/sport/SportResponseDTO.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +27,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "babiperina"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8a4ce53c-2d0f-4142-97c6-4acd95ba76a1" />
+        <option name="url" value="https://github.com/babiperina/btorneios.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -109,6 +83,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -181,8 +156,17 @@
       <workItem from="1699309247569" duration="1808000" />
       <workItem from="1700190801263" duration="2000" />
       <workItem from="1700190967230" duration="51000" />
-      <workItem from="1700529177360" duration="13981000" />
+      <workItem from="1700529177360" duration="14432000" />
     </task>
+    <task id="LOCAL-00001" summary="my version changes">
+      <option name="closed" value="true" />
+      <created>1700543625091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700543625091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="my version changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="my version changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -31,6 +31,7 @@ CREATE TABLE Torneio (
 );
 
 
+
 CREATE TABLE Categoria_Torneio (
     id SERIAL PRIMARY KEY,
     categoria_id INT REFERENCES Categoria(id) NOT NULL,
