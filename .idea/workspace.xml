@@ -4,7 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="" />
+    <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoria/CategoriaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoria/CategoriaRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoria/CategoriaResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoriaTorneio/CategoriaTorneio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoriaTorneio/CategoriaTorneioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoriaTorneio/CategoriaTorneioRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoriaTorneio/CategoriaTorneioResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/CategoriaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/CategoriaTorneioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/GeneroController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/NivelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/StatusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/genero/Genero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/genero/GeneroRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/genero/GeneroRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/genero/GeneroResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/nivel/Nivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/nivel/NivelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/nivel/NivelRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/nivel/NivelResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/status/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/status/StatusRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/status/StatusRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/status/StatusResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/matchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/TorneioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/playerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/sportController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/match/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/torneio/Torneio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/match/MatchRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/torneio/TorneioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/match/MatchRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/torneio/TorneioRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/match/MatchResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/torneio/TorneioResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/PlayerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/PlayerRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/player/PlayerResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/sport/Sport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/categoria/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/sport/SportRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/sport/SportRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/sport/SportResponseDTO.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +60,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +79,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -60,7 +104,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_directory_selection": "E:/Repositórios/score4you/trabalhoFinalPOOeBD/src/main/java/com/example/score4you",
-    "last_opened_file_path": "/Users/barbaraALB/Documents/GitHub - Personal/trabalhoFinalPOOeBD/src/main/java/com/example/score4you/sport",
+    "last_opened_file_path": "/Users/barbaraALB/Documents/GitHub - Personal/trabalhoFinalPOOeBD/src/main/java/com/example/score4you/categoriaTorneio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,7 +112,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
+    "settings.editor.selected.configurable": "vcs.Subversion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,9 +122,11 @@
       <recent name="com.example.score4you.score" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/sport" />
-      <recent name="E:\Repositórios\score4you\trabalhoFinalPOOeBD\src\main\java\com\example\score4you" />
-      <recent name="E:\Repositórios\score4you\trabalhoFinalPOOeBD\src\main\java\com\example\score4you\player" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/categoriaTorneio" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/status" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/categoria" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/nivel" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.score4you.controller" />
@@ -107,12 +153,16 @@
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="score4you" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.score4you.Score4youApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8090" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="" />
@@ -128,6 +178,10 @@
       <workItem from="1699073305521" duration="498000" />
       <workItem from="1699073812787" duration="2142000" />
       <workItem from="1699077772569" duration="3371000" />
+      <workItem from="1699309247569" duration="1808000" />
+      <workItem from="1700190801263" duration="2000" />
+      <workItem from="1700190967230" duration="51000" />
+      <workItem from="1700529177360" duration="13981000" />
     </task>
     <servers />
   </component>
@@ -151,5 +205,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/trabalhoFinalPOOeBD$Score4youApplication.ic" NAME="Score4youApplication Coverage Results" MODIFIED="1700533630263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

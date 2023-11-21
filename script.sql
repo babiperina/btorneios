@@ -1,48 +1,66 @@
-CREATE TABLE Sport (
+CREATE TABLE Genero (
     id SERIAL PRIMARY KEY,
-	sport_name VARCHAR (50)
+    name VARCHAR (255) NOT NULL
 );
 
-CREATE TABLE Match (
+CREATE TABLE Nivel (
     id SERIAL PRIMARY KEY,
-    match_name VARCHAR(50),
-    team_a INT REFERENCES Team(id),
-    team_b INT REFERENCES Team(id),
-    winner VARCHAR(50),
-	sport_id INT REFERENCES Sport(id)
+    name VARCHAR (255) NOT NULL
 );
 
-CREATE TABLE Team (
+CREATE TABLE Categoria (
     id SERIAL PRIMARY KEY,
-	team_name VARCHAR (50)
+    name VARCHAR (255) NOT NULL,
+    genero_id INT REFERENCES Genero(id) NOT NULL,
+    genero_name VARCHAR(255),
+    nivel_id INT REFERENCES Nivel(id) NOT NULL,
+    nivel_name VARCHAR(255)
 );
 
-CREATE TABLE Player (
+CREATE TABLE Status (
     id SERIAL PRIMARY KEY,
-	player_name VARCHAR (50),
-	team_id INT REFERENCES Team(id)
+    name VARCHAR(255)
 );
 
-CREATE TABLE Set (
+CREATE TABLE Torneio (
     id SERIAL PRIMARY KEY,
-    match_id INT REFERENCES Match(id),
-    team_a_score INT,
-	team_b_score INT,
-	set_order INT,
-	winner INT REFERENCES Player(id)
+    name VARCHAR(255),
+    quantidade_min_duplas INT,
+    configuracao_game_set VARCHAR(255),
+    status_id INT REFERENCES Status(id)
 );
 
-CREATE TABLE Game (
+
+CREATE TABLE Categoria_Torneio (
     id SERIAL PRIMARY KEY,
-    set_id INT REFERENCES Set(id),
-    team_a_score INT,
-	team_b_score INT,
-	winner INT REFERENCES Player(id)
+    categoria_id INT REFERENCES Categoria(id) NOT NULL,
+    torneio_id INT REFERENCES Torneio(id) NOT NULL
 );
+
+
+CREATE TABLE Jogador (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR (255),
+    genero INT REFERENCES Genero(id),
+    nivel INT REFERENCES Nivel(id)
+);
+
+CREATE TABLE Dupla (
+    id SERIAL PRIMARY KEY,
+    jogadorA INT REFERENCES Jogador(id),
+    jogadorB INT REFERENCES Jogador(id)
+);
+
+CREATE TABLE Dupla_Torneio (
+    id SERIAL PRIMARY KEY,
+    categoria_id INT REFERENCES Dupla(id),
+    torneio_id INT REFERENCES Torneio(id)
+);
+
 
 ------ CRIAÇÃO DE MASSA
 
--- Dependencia para adicionar um match
+-- Dependencia para adicionar um torneio
 INSERT INTO Sport (sport_name)
 VALUES ('Beach Tennis');
 -- Criar o Match
@@ -55,7 +73,7 @@ VALUES ('BOCOS');
 INSERT INTO Player (player_name, team_id)
 VALUES('Rafael',2);
 -- Adicionar time a Match
-UPDATE public.match
+UPDATE public.torneio
 SET team_b = 2
 WHERE id = 1;
 -- -- Criar as regras do Match
