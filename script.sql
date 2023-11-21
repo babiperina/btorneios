@@ -42,8 +42,8 @@ CREATE TABLE Categoria_Torneio (
 CREATE TABLE Jogador (
     id SERIAL PRIMARY KEY,
     name VARCHAR (255),
-    genero INT REFERENCES Genero(id),
-    nivel INT REFERENCES Nivel(id)
+    genero_id INT REFERENCES Genero(id),
+    nivel_id INT REFERENCES Nivel(id)
 );
 
 CREATE TABLE Dupla (

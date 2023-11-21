@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="my version changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/JogadorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/jogador/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/jogador/JogadorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/jogador/JogadorRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/jogador/JogadorResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/script.sql" afterDir="false" />
     </list>
@@ -78,7 +83,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_directory_selection": "E:/Repositórios/score4you/trabalhoFinalPOOeBD/src/main/java/com/example/score4you",
-    "last_opened_file_path": "/Users/barbaraALB/Documents/GitHub - Personal/trabalhoFinalPOOeBD/src/main/java/com/example/score4you/categoriaTorneio",
+    "last_opened_file_path": "/Users/barbaraALB/Documents/GitHub - Personal/trabalhoFinalPOOeBD/src/main/java/com/example/score4you/jogador",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,11 +102,11 @@
       <recent name="com.example.score4you.score" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/jogador" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/categoriaTorneio" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/status" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/categoria" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/score4you/nivel" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.score4you.controller" />
@@ -156,7 +161,7 @@
       <workItem from="1699309247569" duration="1808000" />
       <workItem from="1700190801263" duration="2000" />
       <workItem from="1700190967230" duration="51000" />
-      <workItem from="1700529177360" duration="14432000" />
+      <workItem from="1700529177360" duration="15090000" />
     </task>
     <task id="LOCAL-00001" summary="my version changes">
       <option name="closed" value="true" />
