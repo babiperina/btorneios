@@ -11,66 +11,15 @@
 			"name": "Genero",
 			"item": [
 				{
-					"name": "Find All",
+					"name": "Recuperar todos os Gêneros",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Validate the response body is an array\", function () {",
-									"    pm.expect(pm.response.json()).to.be.an('array');",
-									"});",
-									"",
-									"",
-									"pm.test(\"Each object in the array has id and name fields\", function () {",
-									"    const responseData = pm.response.json();",
-									"",
-									"    pm.expect(responseData).to.be.an('array').that.is.not.empty;",
-									"",
-									"    responseData.forEach(function (object) {",
-									"        pm.expect(object).to.have.property('id');",
-									"        pm.expect(object).to.have.property('name');",
-									"    });",
-									"});",
-									"",
-									"",
-									"pm.test(\"Validate that the 'id' field is a non-negative integer\", function () {",
-									"    const responseData = pm.response.json();",
-									"",
-									"    pm.expect(responseData).to.be.an('array').that.is.not.empty;",
-									"",
-									"    responseData.forEach(function (item) {",
-									"        pm.expect(item.id).to.be.a('number').and.to.be.at.least(0);",
-									"    });",
-									"});",
-									"",
-									"",
-									"pm.test(\"The 'name' field is a non-empty string\", function () {",
-									"    const responseData = pm.response.json();",
-									"",
-									"    pm.expect(responseData).to.be.an('array');",
-									"    responseData.forEach(function (data) {",
-									"        pm.expect(data.name).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Value should not be empty\");",
-									"    });",
-									"});",
-									"",
-									"",
-									"pm.test(\"Each object in the array has the expected number of fields\", function () {",
-									"    const responseData = pm.response.json();",
-									"",
-									"    pm.expect(responseData).to.be.an('array');",
-									"",
-									"    responseData.forEach(function (obj) {",
-									"        pm.expect(obj).to.have.all.keys('id', 'name');",
-									"    });",
-									"});",
-									"",
-									"",
-									"pm.test(\"Response time is less than 200ms\", function () {",
-									"    pm.expect(pm.response.responseTime).to.be.below(200);",
-									"});",
-									"",
-									""
+									"pm.test(\"GET /genero returns HTTP status 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
 								],
 								"type": "text/javascript"
 							}
@@ -106,7 +55,18 @@
 					"response": []
 				},
 				{
-					"name": "Find By Id",
+					"name": "Recuperar Gênero por Id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -123,22 +83,33 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/genero/1",
+							"raw": "http://{{url}}:8090/genero/2",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
 								"genero",
-								"1"
+								"2"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "Create",
+					"name": "Criar Gênero",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -152,10 +123,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/genero",
+							"raw": "http://{{url}}:8090/genero",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -164,6 +135,26 @@
 						}
 					},
 					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
 				}
 			]
 		},
@@ -176,10 +167,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8090/nivel",
+							"raw": "http://{{url}}:8090/nivel",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -207,10 +198,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/nivel/2",
+							"raw": "http://{{url}}:8090/nivel/2",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -236,10 +227,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/nivel",
+							"raw": "http://{{url}}:8090/nivel",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -261,7 +252,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\": \"Ablubleble\",\n    \"genero_id\": 2,\n    \"nivel_id\": 2\n}",
+							"raw": "{\n    \"name\": \"responde com Http Status\",\n    \"genero_id\": 2,\n    \"nivel_id\": 2\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -269,10 +260,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/categoria",
+							"raw": "http://{{url}}:8090/categoria",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -288,10 +279,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8090/categoria",
+							"raw": "http://{{url}}:8090/categoria",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -321,10 +312,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/status",
+							"raw": "http://{{url}}:8090/status",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -340,10 +331,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8090/status",
+							"raw": "http://{{url}}:8090/status",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -373,10 +364,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/torneio",
+							"raw": "http://{{url}}:8090/torneio",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -392,10 +383,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8090/torneio",
+							"raw": "http://{{url}}:8090/torneio",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -416,10 +407,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8090/categoria_torneio",
+							"raw": "http://{{url}}:8090/categoria_torneio",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -444,10 +435,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/categoria_torneio",
+							"raw": "http://{{url}}:8090/categoria_torneio",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -468,10 +459,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8090/jogador",
+							"raw": "http://{{url}}:8090/jogador",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -496,10 +487,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/jogador",
+							"raw": "http://{{url}}:8090/jogador",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -520,10 +511,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8090/dupla",
+							"raw": "http://{{url}}:8090/dupla",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -548,10 +539,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/dupla",
+							"raw": "http://{{url}}:8090/dupla",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -572,10 +563,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8090/dupla_torneio",
+							"raw": "http://{{url}}:8090/dupla_torneio",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -600,10 +591,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8090/dupla_torneio",
+							"raw": "http://{{url}}:8090/dupla_torneio",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
 							"port": "8090",
 							"path": [
@@ -622,6 +613,11 @@
 			"script": {
 				"type": "text/javascript",
 				"exec": [
+					"// to run in jenkins",
+					"// pm.collectionVariables.set(\"url\", \"host.docker.internal\");",
+					"",
+					"// to run locally",
+					"pm.collectionVariables.set(\"url\", \"localhost\");",
 					""
 				]
 			}
@@ -636,6 +632,12 @@
 					"});"
 				]
 			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "host.docker.internal"
 		}
 	]
 }

@@ -1,15 +1,13 @@
 package com.example.score4you.controller;
 
 
-import com.example.score4you.dupla.Dupla;
-import com.example.score4you.dupla.DuplaRepository;
-import com.example.score4you.dupla.DuplaRequestDTO;
-import com.example.score4you.dupla.DuplaResponseDTO;
 import com.example.score4you.duplaTorneio.DuplaTorneio;
 import com.example.score4you.duplaTorneio.DuplaTorneioRepository;
 import com.example.score4you.duplaTorneio.DuplaTorneioRequestDTO;
 import com.example.score4you.duplaTorneio.DuplaTorneioResponseDTO;
+import com.example.score4you.util.ResponseTransfer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -23,10 +21,10 @@ public class DuplaTorneioController {
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping
-    public void saveMatch(@RequestBody DuplaTorneioRequestDTO data){
+    public ResponseTransfer saveMatch(@RequestBody DuplaTorneioRequestDTO data){
         DuplaTorneio duplaTorneioData = new DuplaTorneio(data);
         duplaTorneioRepository.save(duplaTorneioData);
-        return;
+        return new ResponseTransfer(HttpStatus.OK,"Dupla cadastrada no Torneio com sucesso.");
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")

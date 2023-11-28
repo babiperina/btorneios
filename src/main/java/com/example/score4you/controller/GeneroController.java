@@ -4,7 +4,9 @@ import com.example.score4you.genero.Genero;
 import com.example.score4you.genero.GeneroRepository;
 import com.example.score4you.genero.GeneroRequestDTO;
 import com.example.score4you.genero.GeneroResponseDTO;
+import com.example.score4you.util.ResponseTransfer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -19,10 +21,10 @@ public class GeneroController {
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping
-    public void saveMatch(@RequestBody GeneroRequestDTO data){
+    public ResponseTransfer saveMatch(@RequestBody GeneroRequestDTO data){
         Genero generoData = new Genero(data);
         generoRepository.save(generoData);
-        return;
+        return new ResponseTransfer(HttpStatus.OK,"Genero cadastrado com sucesso.");
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")

@@ -5,7 +5,9 @@ import com.example.score4you.jogador.Jogador;
 import com.example.score4you.jogador.JogadorRepository;
 import com.example.score4you.jogador.JogadorRequestDTO;
 import com.example.score4you.jogador.JogadorResponseDTO;
+import com.example.score4you.util.ResponseTransfer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -19,10 +21,10 @@ public class JogadorController {
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping
-    public void saveMatch(@RequestBody JogadorRequestDTO data){
+    public ResponseTransfer saveMatch(@RequestBody JogadorRequestDTO data){
         Jogador jogadorData = new Jogador(data);
         jogadorRepository.save(jogadorData);
-        return;
+        return new ResponseTransfer(HttpStatus.OK,"Jogador cadastrado com sucesso.");
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")

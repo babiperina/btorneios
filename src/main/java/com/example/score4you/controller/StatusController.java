@@ -5,7 +5,9 @@ import com.example.score4you.status.Status;
 import com.example.score4you.status.StatusRepository;
 import com.example.score4you.status.StatusRequestDTO;
 import com.example.score4you.status.StatusResponseDTO;
+import com.example.score4you.util.ResponseTransfer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -20,10 +22,10 @@ public class StatusController {
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping
-    public void saveMatch(@RequestBody StatusRequestDTO data){
+    public ResponseTransfer saveMatch(@RequestBody StatusRequestDTO data){
         Status statusData = new Status(data);
         statusRepository.save(statusData);
-        return;
+        return new ResponseTransfer(HttpStatus.OK,"Status cadastrado com sucesso.");
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")

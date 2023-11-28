@@ -4,7 +4,9 @@ import com.example.score4you.nivel.Nivel;
 import com.example.score4you.nivel.NivelRepository;
 import com.example.score4you.nivel.NivelRequestDTO;
 import com.example.score4you.nivel.NivelResponseDTO;
+import com.example.score4you.util.ResponseTransfer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,10 +20,10 @@ public class NivelController {
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping
-    public void saveMatch(@RequestBody NivelRequestDTO data){
+    public ResponseTransfer saveMatch(@RequestBody NivelRequestDTO data){
         Nivel nivelData = new Nivel(data);
         nivelRepository.save(nivelData);
-        return;
+        return new ResponseTransfer(HttpStatus.OK,"Nível cadastrado com sucesso.");
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")

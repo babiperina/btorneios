@@ -4,7 +4,9 @@ import com.example.score4you.categoriaTorneio.CategoriaTorneio;
 import com.example.score4you.categoriaTorneio.CategoriaTorneioRepository;
 import com.example.score4you.categoriaTorneio.CategoriaTorneioRequestDTO;
 import com.example.score4you.categoriaTorneio.CategoriaTorneioResponseDTO;
+import com.example.score4you.util.ResponseTransfer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,10 +19,10 @@ public class CategoriaTorneioController {
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping
-    public void saveMatch(@RequestBody CategoriaTorneioRequestDTO data) {
+    public ResponseTransfer saveMatch(@RequestBody CategoriaTorneioRequestDTO data) {
         CategoriaTorneio categoriaTorneioData = new CategoriaTorneio(data);
         categoriaTorneioRepository.save(categoriaTorneioData);
-        return;
+        return new ResponseTransfer(HttpStatus.OK,"Categoria associada ao Torneio com sucesso.");
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
