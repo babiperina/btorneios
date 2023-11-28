@@ -1,5 +1,7 @@
-# Planejamento de Teste de Software
-## Simulação de Planejamento de Teste de Software
+# BTorneios
+## Simulação de Planejamento de Teste de Software 
+
+BTorneios & Github API
 
 Este repositório visa documentar, de forma resumida, o processo de planejamento de teste de software de uma aplicação. Utilizando como base uma API Rest construída exclusivamente para este fim.
 
