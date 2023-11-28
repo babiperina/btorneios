@@ -7,7 +7,7 @@ Este repositório visa documentar, de forma resumida, o processo de planejamento
 
 ## O que você vai encontrar aqui?
 
-- Plano de Teste em Formato de Mapa Mental
+- Plano de Teste em Formato de Planilha
 - Roteiro de Teste baseado em Casos de Uso e no Banco de Dados da Aplicação
 - Integração dos testes de API Automatizados utilizando Postman, Newman e Jenkins
 - Ações futuras que podem e/ou devem ser realizadas com base no Plano de Teste
