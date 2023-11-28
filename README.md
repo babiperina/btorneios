@@ -33,6 +33,8 @@ Pendente descrever essa sessão
 ## Entregáveis
 
 ### Plano de Teste
+1. [Rascunho por Épico](https://drive.google.com/file/d/14ShzTb7X_kJnNzywSMxiLdmJNbzjarqj/view?usp=drive_link)
+2. [Planilha](https://docs.google.com/spreadsheets/d/12KJRirEyY2ziVwAqjiBmjaV5PoGdLF0p9b7xpm8R6S4/edit?usp=sharing)
 ### Roteiro de Testes
 ### Testes de API Automáticos
 [Postman Collection](https://documenter.getpostman.com/view/29428391/2s9YeA9EMk)

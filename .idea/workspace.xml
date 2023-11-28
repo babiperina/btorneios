@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37bc8513-858f-476b-9db0-d16a1b634173" name="Changes" comment="my version changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/util/ResponseTransfer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Beach Tennis.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/Beach Tennis.postman_collection.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/CategoriaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/CategoriaTorneioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/CategoriaTorneioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/DuplaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/DuplaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/DuplaTorneioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/DuplaTorneioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/GeneroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/GeneroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/JogadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/JogadorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/NivelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/NivelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/StatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/StatusController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/TorneioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/score4you/controller/TorneioController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +158,7 @@
       <workItem from="1700190967230" duration="51000" />
       <workItem from="1700529177360" duration="23287000" />
       <workItem from="1700593021275" duration="2794000" />
-      <workItem from="1701162394051" duration="1285000" />
+      <workItem from="1701162394051" duration="2629000" />
     </task>
     <task id="LOCAL-00001" summary="my version changes">
       <option name="closed" value="true" />
